@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0793823A2340977400D0626E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 079382392340977400D0626E /* AppDelegate.m */; };
+		0793823D2340977400D0626E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0793823C2340977400D0626E /* ViewController.m */; };
+		079382402340977400D0626E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0793823E2340977400D0626E /* Main.storyboard */; };
+		079382422340977600D0626E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079382412340977600D0626E /* Assets.xcassets */; };
+		079382452340977600D0626E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079382432340977600D0626E /* LaunchScreen.storyboard */; };
+		079382482340977600D0626E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 079382472340977600D0626E /* main.m */; };
+		07938250234097F600D0626E /* Kitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0793824F234097F600D0626E /* Kitchen.m */; };
+		079382532340983900D0626E /* Waiter.m in Sources */ = {isa = PBXBuildFile; fileRef = 079382522340983900D0626E /* Waiter.m */; };
+		079382572341DC3700D0626E /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 079382562341DC3700D0626E /* Client.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		079382352340977400D0626E /* Restourant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restourant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		079382382340977400D0626E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		079382392340977400D0626E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0793823B2340977400D0626E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0793823C2340977400D0626E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0793823F2340977400D0626E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		079382412340977600D0626E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		079382442340977600D0626E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		079382462340977600D0626E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		079382472340977600D0626E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0793824E234097F600D0626E /* Kitchen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kitchen.h; sourceTree = "<group>"; };
+		0793824F234097F600D0626E /* Kitchen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kitchen.m; sourceTree = "<group>"; };
+		079382512340983900D0626E /* Waiter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Waiter.h; sourceTree = "<group>"; };
+		079382522340983900D0626E /* Waiter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Waiter.m; sourceTree = "<group>"; };
+		079382542340A14500D0626E /* WaiterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaiterProtocol.h; sourceTree = "<group>"; };
+		079382552341DC3700D0626E /* Client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		079382562341DC3700D0626E /* Client.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		079382582341DD1600D0626E /* ClientProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		079382322340977400D0626E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0793822C2340977400D0626E = {
+			isa = PBXGroup;
+			children = (
+				079382372340977400D0626E /* Restourant */,
+				079382362340977400D0626E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		079382362340977400D0626E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				079382352340977400D0626E /* Restourant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		079382372340977400D0626E /* Restourant */ = {
+			isa = PBXGroup;
+			children = (
+				079382382340977400D0626E /* AppDelegate.h */,
+				079382582341DD1600D0626E /* ClientProtocol.h */,
+				079382542340A14500D0626E /* WaiterProtocol.h */,
+				079382552341DC3700D0626E /* Client.h */,
+				079382562341DC3700D0626E /* Client.m */,
+				079382512340983900D0626E /* Waiter.h */,
+				079382522340983900D0626E /* Waiter.m */,
+				0793824E234097F600D0626E /* Kitchen.h */,
+				0793824F234097F600D0626E /* Kitchen.m */,
+				079382392340977400D0626E /* AppDelegate.m */,
+				0793823B2340977400D0626E /* ViewController.h */,
+				0793823C2340977400D0626E /* ViewController.m */,
+				0793823E2340977400D0626E /* Main.storyboard */,
+				079382412340977600D0626E /* Assets.xcassets */,
+				079382432340977600D0626E /* LaunchScreen.storyboard */,
+				079382462340977600D0626E /* Info.plist */,
+				079382472340977600D0626E /* main.m */,
+			);
+			path = Restourant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		079382342340977400D0626E /* Restourant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0793824B2340977600D0626E /* Build configuration list for PBXNativeTarget "Restourant" */;
+			buildPhases = (
+				079382312340977400D0626E /* Sources */,
+				079382322340977400D0626E /* Frameworks */,
+				079382332340977400D0626E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Restourant;
+			productName = Restourant;
+			productReference = 079382352340977400D0626E /* Restourant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0793822D2340977400D0626E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Лада";
+				TargetAttributes = {
+					079382342340977400D0626E = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 079382302340977400D0626E /* Build configuration list for PBXProject "Restourant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0793822C2340977400D0626E;
+			productRefGroup = 079382362340977400D0626E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				079382342340977400D0626E /* Restourant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		079382332340977400D0626E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079382452340977600D0626E /* LaunchScreen.storyboard in Resources */,
+				079382422340977600D0626E /* Assets.xcassets in Resources */,
+				079382402340977400D0626E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		079382312340977400D0626E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0793823D2340977400D0626E /* ViewController.m in Sources */,
+				079382482340977600D0626E /* main.m in Sources */,
+				079382572341DC3700D0626E /* Client.m in Sources */,
+				07938250234097F600D0626E /* Kitchen.m in Sources */,
+				0793823A2340977400D0626E /* AppDelegate.m in Sources */,
+				079382532340983900D0626E /* Waiter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0793823E2340977400D0626E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0793823F2340977400D0626E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		079382432340977600D0626E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079382442340977600D0626E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		079382492340977600D0626E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0793824A2340977600D0626E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0793824C2340977600D0626E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PXRX3FS7N;
+				INFOPLIST_FILE = Restourant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = School.Restourant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0793824D2340977600D0626E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PXRX3FS7N;
+				INFOPLIST_FILE = Restourant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = School.Restourant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		079382302340977400D0626E /* Build configuration list for PBXProject "Restourant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079382492340977600D0626E /* Debug */,
+				0793824A2340977600D0626E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0793824B2340977600D0626E /* Build configuration list for PBXNativeTarget "Restourant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0793824C2340977600D0626E /* Debug */,
+				0793824D2340977600D0626E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0793822D2340977400D0626E /* Project object */;
+}
