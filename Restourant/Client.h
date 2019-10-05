@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Client : NSObject
 
 @property (weak, nonatomic) id <ClientProtocol> delegate;
+
 -(void) haveDinner;
 -(void) leaveTip;
 -(void) toThank;

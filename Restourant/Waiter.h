@@ -16,8 +16,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(double) makeOrder;
 
-// Этой записью говорим, что у Офицанта есть делегат
-// id означает, что делегатом может быть любой класс
 @property(weak, nonatomic) id <WaiterProtocol> delegate;
 
 @end
