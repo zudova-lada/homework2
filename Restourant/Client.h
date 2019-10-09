@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ClientProtocol.h"
+#import "MakeOrderProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Client : NSObject
 
-@property (weak, nonatomic) id <ClientProtocol> delegate;
+@property (weak, nonatomic) id <MakeOrderProtocol> delegate;
 
 -(void) haveDinner;
 -(void) leaveTip;

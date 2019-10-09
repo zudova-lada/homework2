@@ -7,13 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "WaiterProtocol.h"
+#import "MakeOrderProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Kitchen : NSObject <WaiterProtocol>
-
--(double) cookOrder;
+@interface Kitchen : NSObject <MakeOrderProtocol>
 
 @end
 

@@ -7,8 +7,6 @@
 //
 
 #import "ViewController.h"
-//#import "Waiter.h"
-//#import "Kitchen.h"
 #import "Client.h"
 
 @interface ViewController ()

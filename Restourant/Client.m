@@ -28,7 +28,7 @@
     NSLog(@"Добрый день, я хотел бы у вас поужинать!");
     
     double myCount = [myWaiter makeOrder];
-    
+
     if (myCount >= 0.75)
     {
         [self toThank];

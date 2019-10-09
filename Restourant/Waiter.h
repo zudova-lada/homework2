@@ -7,16 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "WaiterProtocol.h"
-#import "ClientProtocol.h"
+#import "MakeOrderProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Waiter : NSObject <ClientProtocol>
+@interface Waiter : NSObject <MakeOrderProtocol>
 
--(double) makeOrder;
-
-@property(weak, nonatomic) id <WaiterProtocol> delegate;
+@property(weak, nonatomic) id <MakeOrderProtocol> delegate;
 
 @end
 

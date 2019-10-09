@@ -7,8 +7,8 @@
 //
 
 
-@protocol WaiterProtocol <NSObject>
-
--(BOOL)cookOrder;
+@protocol MakeOrderProtocol <NSObject>
+@required
+-(double)makeOrder;
 
 @end

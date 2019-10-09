@@ -33,10 +33,9 @@
 		0793824F234097F600D0626E /* Kitchen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kitchen.m; sourceTree = "<group>"; };
 		079382512340983900D0626E /* Waiter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Waiter.h; sourceTree = "<group>"; };
 		079382522340983900D0626E /* Waiter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Waiter.m; sourceTree = "<group>"; };
-		079382542340A14500D0626E /* WaiterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaiterProtocol.h; sourceTree = "<group>"; };
+		079382542340A14500D0626E /* MakeOrderProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakeOrderProtocol.h; sourceTree = "<group>"; };
 		079382552341DC3700D0626E /* Client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
 		079382562341DC3700D0626E /* Client.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
-		079382582341DD1600D0626E /* ClientProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				079382382340977400D0626E /* AppDelegate.h */,
-				079382582341DD1600D0626E /* ClientProtocol.h */,
-				079382542340A14500D0626E /* WaiterProtocol.h */,
+				079382542340A14500D0626E /* MakeOrderProtocol.h */,
 				079382552341DC3700D0626E /* Client.h */,
 				079382562341DC3700D0626E /* Client.m */,
 				079382512340983900D0626E /* Waiter.h */,
